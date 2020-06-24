@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+.container {
+  padding: 60px;
+  background: rgba(158, 158, 158, 0.5);
+  height: 100vh;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  /* background: url('./assets/after_noon.png') center; */
+  background: url('./assets/night.png') center;
+  position: center; 
+  border-radius: 10px;
+  min-width: 80%;
+  min-height: 80%;
+  box-shadow: 0 3px 6px rgb(94, 94, 94);
+}
+
+.search-box {
+  padding: 20px;
+}
+
+.search-bar {
+  font-size: 1em;
+  color: rgb(75, 75, 75);
+  font-weight: 600; 
+  width: 100%;
+  border: none;
+  height: auto;
+  padding: 10px;
+  outline: 0;
+  margin-bottom: 1em;
+  border-radius: .3em;
+  border-bottom: 3px solid rgba(0,0,0, 0.3);
+  background-color: #ffffff;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  font-family: 'Inter', sans-serif;
+}
+
+.temp-box {
+  margin-bottom: 300px;
+}
+
+.degrees {
+  font-size: 100px;
+}
+
+main {
+  font-family: 'Inter', sans-serif;
+  color: white;
+}
+
+.app.night {
+  background-image: url('./assets/night.png');
+  position: center; 
+  border-radius: 10px;
+  min-width: 80%;
+  min-height: 80%;
+}
+
+.chevron {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  transition: 0.5s ease-in-out; 
+}
+
+.chevron:hover {
+  transform: scale(0.8);
+}
+
+.location-box {
+  text-align: center;
+}
+
+.location {
+  padding: 10px;
+}
+
+.date {
+  padding-bottom: 20px;
+}
+
+
